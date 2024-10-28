@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/rps.css">
+  <script src="assets/js/rps.js" defer></script>
+  <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="header">
+     <h2>Rock <br> Paper <br> Scissors</h2>
+  
+     <div class="score-area">
+      <h5>Score</h5>
+      <span id="scoreArea">0</span>
+     </div>
+  
+    </div>
+
+    <div class="game-section">
+      <div class="pick-selection">
+        <a href="#" id="paperBtn"><img  src="assets/images/paper-pc-icon.png" alt="paper"></a>
+        <h6 id="playerText">YOU PICKED</h6>
+      </div>
+      <div>
+        <a href="#" id="scissorsBtn"><img src="assets/images/scissors-pc-icon.png" alt="scissors"></a>
+        <h6 id="computerText">THE HOUSE PICKED</h6>
+      </div>
+      <div>
+        <a href="#" id="rockBtn"><img src="assets/images/rock-pc-icon.png" alt="rock"></a>
+      </div>
+    </div>
+
+    <div class="result-section">
+      <h1 id="winnerName">YOU WIN</h1>
+      <button id="restartBtn">PLAY AGAIN</button>
+    </div>
+
+    <div class="footer-btn">
+      <a href="#" id="rulesBtn">Rules</a>
+    </div>
+     
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <h1>RULES</h1>
+        <img src="assets/images/rule.png" alt="rule">
+      </div>
+    
+    </div>
+        
+       
+  </div>
+  
+</body>
+</html>
